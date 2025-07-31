@@ -45,7 +45,7 @@ ChartJS.register(
   annotationPlugin
 );
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://dashboard-backend-8spg.onrender.com/api';
 
 type Card = {
   title: string;
