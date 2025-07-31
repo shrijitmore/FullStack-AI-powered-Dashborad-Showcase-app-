@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CategoryDetail.css */
+.scrollbar-hidden {
+  overflow: auto; /* Allow scrolling */
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+}
+
+.scrollbar-hidden {
+  -ms-overflow-style: none;  /* Hide scrollbar for Internet Explorer and Edge */
+  scrollbar-width: none;  /* Hide scrollbar for Firefox */
+}
+
+.chartjs-x-axis .tick {
+  text-align: center; /* Center align the text */
+  white-space: pre-line; /* Preserve line breaks */
+}
