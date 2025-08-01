@@ -13,12 +13,7 @@ const PORT = process.env.PORT || 5000;
 app.use(express.json()); 
 
 // Configure CORS with specific options
-app.use(cors({
-  origin: 'http://localhost:5173', // Frontend URL
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization'],
-  credentials: true
-}));
+app.use(cors());
 
 // MongoDB Connection with more detailed error logging
 mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
