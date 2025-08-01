@@ -45,7 +45,7 @@ ChartJS.register(
   annotationPlugin
 );
 
-const API_BASE_URL = 'https://fullstack-ai-powered-dashborad-showcase-kgcp.onrender.com/api';
+const API_BASE_URL = 'http://13.60.249.161:5000/api';
 
 type Card = {
   title: string;

@@ -1,5 +1,5 @@
 export const API_CONFIG = {
-  BASE_URL: 'https://fullstack-ai-powered-dashborad-showcase.onrender.com', // Your local backend API base URL
+  BASE_URL: 'http://16.171.14.246:5000/', // Your local backend API base URL
   ENDPOINTS: {
     REAL_TIME_DATA: '/data',
     HISTORICAL_DATA: '/historical_data',
